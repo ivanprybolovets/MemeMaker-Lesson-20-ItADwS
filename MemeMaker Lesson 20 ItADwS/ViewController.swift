@@ -9,12 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var topCaptionSegmentControl: UISegmentedControl!
+    @IBOutlet weak var topLabel: UILabel!
+    @IBOutlet weak var mainImageView: UIImageView!
+    @IBOutlet weak var bottomLabel: UILabel!
+    @IBOutlet weak var bottomSegmentControl: UISegmentedControl!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
+    
+    
 }
 
