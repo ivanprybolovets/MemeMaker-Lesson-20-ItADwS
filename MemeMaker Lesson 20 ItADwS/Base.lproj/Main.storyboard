@@ -24,6 +24,9 @@
                                             <segment title="First"/>
                                             <segment title="Second"/>
                                         </segments>
+                                        <connections>
+                                            <action selector="topSegmentValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="BpF-WD-c4Y"/>
+                                        </connections>
                                     </segmentedControl>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ATU-0v-UtE">
                                         <rect key="frame" x="92" y="68" width="42" height="20.5"/>
@@ -49,6 +52,9 @@
                                             <segment title="First"/>
                                             <segment title="Second"/>
                                         </segments>
+                                        <connections>
+                                            <action selector="bottomSegmentValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="eA6-3P-OPv"/>
+                                        </connections>
                                     </segmentedControl>
                                 </subviews>
                             </stackView>
